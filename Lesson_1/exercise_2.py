@@ -1,5 +1,6 @@
-S = int(input('Введите кол-во журавликов которые сделали дети!'))
-P = (S/3)/2
-C = P
-K = (C+P)*2
-print(f'{K}-Столько сделала Катя,{P}-столько сделал Петя,{C}-столько сделал Сережа!')
+x = int(input())
+y = int(input())
+for i in range(x):
+    for j in range(y):
+        if x == i + j and y == i * j:
+            print(i, j)
